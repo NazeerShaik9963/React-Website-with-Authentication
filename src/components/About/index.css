@@ -1,0 +1,57 @@
+
+.About{
+    height: 92vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    background-color: rgb(63, 62, 61);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box .about-head{
+    color: rgb(161, 194, 172);
+    font-size: 6em;
+    text-shadow: 2px 2px rgb(204, 197, 197);
+    z-index: 2;
+    
+}
+
+.box::before{
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(#9447a3, #5b68ad);
+    height: 500px;
+    width: 200px;
+    animation: boxRotate 4s linear infinite;
+    
+}
+.box::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(77, 75, 74);
+    inset: 4px;
+    border-radius: 16px;
+}
+@keyframes boxRotate {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+    
+}

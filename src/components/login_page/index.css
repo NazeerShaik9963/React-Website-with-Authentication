@@ -1,0 +1,108 @@
+.loginpage_background{
+    background-image: url("https://png.pngtree.com/background/20220714/original/pngtree-mountain-sunset-minimalist-landscape-scenery-wallpaper-full-hd-4k-8k-images-picture-image_1604211.jpg");
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    /* animation: bg 3s infinite; */
+}
+/* @keyframes bg {
+    100%{filter: hue-rotate(360deg);}
+} */
+.head{
+    color: white;
+    font-size: 40px;
+    font-style:italic;
+
+}
+.formClass{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    align-items: first baseline;
+    /* border: 4px solid;
+    border-top-color: aqua;
+    border-left-color: blue;
+    border-right-color: rgb(43, 226, 119);
+    border-bottom-color: rgb(31, 143, 213);
+    animation: cardBorders linear infinite 3s; */
+}
+
+/* @keyframes cardBorders {
+    0%{
+        border-top-color: aqua;
+        border-left-color: blue;
+        border-right-color: rgb(43, 226, 119);
+        border-bottom-color: rgb(31, 143, 213);
+    }25%{
+        border-top-color: rgb(88, 87, 140);
+        border-left-color: aqua;
+        border-right-color: blue;
+        border-bottom-color: rgb(43, 226, 119);
+    }50%{
+        border-top-color: rgb(43, 226, 119);
+        border-left-color: rgb(88, 87, 140);
+        border-right-color: aqua;
+        border-bottom-color: blue;
+    }75%{
+        border-top-color: blue;
+        border-left-color: aqua;
+        border-right-color: rgb(88, 87, 140);
+        border-bottom-color: rgb(43, 226, 119);
+    }100%{
+        border-top-color: aqua;
+        border-left-color: blue;
+        border-right-color: rgb(43, 226, 119);
+        border-bottom-color: rgb(31, 143, 213);
+    }
+    
+} */
+
+.submitButton{
+    margin-left: 5px;
+    width: 70px;
+
+}
+
+.buttonCreateAccount{
+    margin-left: 85px;
+    margin-right: 0px;
+    width: 130px;
+}
+
+
+.emailLabel{
+    font-style: italic;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.pwsLabel{
+    font-style: italic;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: aqua;
+    background-color: transparent;
+    width: 100%;
+    outline: 0;
+    color: white;
+    outline: none;
+
+}
+
+p{
+    color: red;
+    font-size: 10px;
+    margin: 0px;
+    
+}

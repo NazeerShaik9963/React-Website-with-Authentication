@@ -1,0 +1,42 @@
+.navLogo-container{
+    margin-left: auto;
+}
+.navLogo{
+    height: 50px;
+    width: 70px;
+    margin: 2px;
+    margin-left: 10px;
+}
+.nav-d-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    height: 8vh;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.nav-list-items{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+    margin-right: auto;
+    list-style-type: none;
+
+}
+.homeItem{
+    color: aliceblue;
+    margin-right: 10px;
+}
+.logout-desktop-btn{
+    background-color: rgb(219, 219, 231);
+    border-radius: 5px;
+    color: rgba(12, 1, 16, 0.679);
+    margin-right: auto;
+
+}
